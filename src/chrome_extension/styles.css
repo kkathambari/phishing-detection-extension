@@ -1,0 +1,66 @@
+/* Body with a gradient and glowing effects */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(145deg, #0f0f0f, #1b1b1b);
+    color: black;
+    box-shadow: inset 0 0 50px black;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Glowing heading */
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #00ff00;
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+/* Unified input and button size and appearance */
+#url-input,
+#check-url-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* URL input field with neon glow */
+#url-input {
+    margin-bottom: 15px;
+    background-color: #1a1a1a;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#url-input::placeholder {
+    color: #444;
+}
+
+/* Glowing button effect */
+#check-url-btn {
+    background-color: #00ff00;
+    color: #121212;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 15px #00ff00;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#check-url-btn:hover {
+    background-color: #00cc00;
+    box-shadow: 0 0 20px #00cc00;
+}
+
+/* Result text with dynamic glowing colors */
+#result-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+}

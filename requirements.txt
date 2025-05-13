@@ -1,0 +1,10 @@
+flask
+pandas
+scikit-learn
+tldextract
+joblib
+selenium
+webdriver-manager
+imblearn
+seaborn
+fuzzywuzzy
